@@ -1,0 +1,78 @@
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.transaction {
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.transaction-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.transaction-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.transaction-amount.plus {
+  color: #60cb7d;
+}
+
+.transaction-amount.minus {
+  color: #da494d;
+}
+
+.icon.plus {
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-right: 10px;
+  background-color: #60cb7d;
+  box-shadow: 0px 1px 7px 1px #60cb7d;
+}
+
+.icon.minus {
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-right: 10px;
+  background-color: #60cb7d;
+  background-color: #f4797d;
+  box-shadow: 0px 1px 7px 1px #f4797d;
+}
+
+.fixed-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  z-index: 2;
+}
